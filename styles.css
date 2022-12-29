@@ -1,0 +1,27 @@
+#header-container {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
+
+#links {
+    display: flex;
+    color: #e5e7eb;
+    
+}
+
+#container-one {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#container-three {
+    display: flex;
+}
+
+#footer-container {
+    display: flex;
+}

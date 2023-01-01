@@ -1,27 +1,89 @@
 #header-container {
     display: flex;
-    flex: 1;
+    justify-content: space-evenly;
     background-color: #1f2937;
-    color: #f9faf8;
+}
 
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 #links {
     display: flex;
     color: #e5e7eb;
+    font-size: 18px;
     
 }
 
 #container-one {
     display: flex;
+    justify-content: space-around;
     background-color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-main-text {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.image {
+    padding: 20px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #container-three {
     display: flex;
 }
 
-#footer-container {
+.quote-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-text {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+
+#container-four {
     display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
 }

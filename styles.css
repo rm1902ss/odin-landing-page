@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto';font-size: 16px;
+}
+
 #header-container {
     display: flex;
     justify-content: space-evenly;
@@ -11,9 +15,15 @@
 
 #links {
     display: flex;
-    color: #e5e7eb;
     font-size: 18px;
-    
+    padding: 5px 10px;
+}    
+
+.link {
+    margin-left: 40px;
+    color: #f9faf8;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #container-one {
@@ -24,15 +34,34 @@
     padding-bottom: 20px;
 }
 
+.left-side {
+    padding-left: 200px;
+    padding-bottom: 50px;
+    width: 400px;
+}
+
 .hero-main-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.button-one {
+    cursor: pointer;
+    background-color: #3882f6;
+    border-style: solid;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    margin-top: 10px;
+
 }
 
 .image {
@@ -49,13 +78,33 @@ img {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #container-three {
     display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.quote-section {
+.box-container {
+    width: 150px;
+    text-align: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#quote-section {
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
@@ -68,16 +117,47 @@ img {
     padding: 10px;
 }
 
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+}
+
 
 #container-four {
     display: flex;
     justify-content: space-evenly;
     background-color: #3882f6;
+    color: #e5e7eb;
     margin: auto;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.sign {
+    margin-top: 5px;
     margin-bottom: 30px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 30px;
+    margin-top: 40px;
 }
 
 footer {
